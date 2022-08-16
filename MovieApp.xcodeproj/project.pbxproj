@@ -7,18 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F5BD23028ABBD6300275794 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = 0F5BD22F28ABBD6300275794 /* Nuke */; };
+		0F5BD23228ABBD6300275794 /* NukeExtensions in Frameworks */ = {isa = PBXBuildFile; productRef = 0F5BD23128ABBD6300275794 /* NukeExtensions */; };
+		0F5BD23428ABBD6300275794 /* NukeUI in Frameworks */ = {isa = PBXBuildFile; productRef = 0F5BD23328ABBD6300275794 /* NukeUI */; };
+		0F9F5D1A28A90DCA00196CEF /* MovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9F5D1928A90DCA00196CEF /* MovieViewModel.swift */; };
+		0F9F5D1D28A9123100196CEF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9F5D1C28A9123100196CEF /* Constants.swift */; };
 		0FD3B9B528A1376D006426D7 /* MovieAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD3B9B428A1376D006426D7 /* MovieAppApp.swift */; };
 		0FD3B9B728A1376D006426D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD3B9B628A1376D006426D7 /* ContentView.swift */; };
 		0FD3B9B928A13770006426D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FD3B9B828A13770006426D7 /* Assets.xcassets */; };
 		0FD3B9BC28A13770006426D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FD3B9BB28A13770006426D7 /* Preview Assets.xcassets */; };
+		0FD3B9C628A137D3006426D7 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD3B9C528A137D3006426D7 /* Movie.swift */; };
+		0FD3B9C828A1388D006426D7 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD3B9C728A1388D006426D7 /* Home.swift */; };
+		0FF81A8128A2D03F00244C62 /* CustomCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF81A8028A2D03F00244C62 /* CustomCarousel.swift */; };
+		0FF81A8328A3D9D400244C62 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF81A8228A3D9D400244C62 /* DetailView.swift */; };
+		0FF81A8528A3E51500244C62 /* offsetModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF81A8428A3E51500244C62 /* offsetModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F9F5D1928A90DCA00196CEF /* MovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModel.swift; sourceTree = "<group>"; };
+		0F9F5D1C28A9123100196CEF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		0FD3B9B128A1376D006426D7 /* MovieApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FD3B9B428A1376D006426D7 /* MovieAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieAppApp.swift; sourceTree = "<group>"; };
 		0FD3B9B628A1376D006426D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0FD3B9B828A13770006426D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FD3B9BB28A13770006426D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0FD3B9C528A137D3006426D7 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		0FD3B9C728A1388D006426D7 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		0FF81A8028A2D03F00244C62 /* CustomCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCarousel.swift; sourceTree = "<group>"; };
+		0FF81A8228A3D9D400244C62 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		0FF81A8428A3E51500244C62 /* offsetModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = offsetModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +43,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F5BD23428ABBD6300275794 /* NukeUI in Frameworks */,
+				0F5BD23028ABBD6300275794 /* Nuke in Frameworks */,
+				0F5BD23228ABBD6300275794 /* NukeExtensions in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F9F5D1B28A9120800196CEF /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				0F9F5D1C28A9123100196CEF /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 		0FD3B9A828A1376D006426D7 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +79,10 @@
 		0FD3B9B328A1376D006426D7 /* MovieApp */ = {
 			isa = PBXGroup;
 			children = (
+				0F9F5D1B28A9120800196CEF /* Constants */,
+				0FD3B9C428A13791006426D7 /* ViewModel */,
+				0FD3B9C328A13785006426D7 /* Model */,
+				0FD3B9C228A13777006426D7 /* View */,
 				0FD3B9B428A1376D006426D7 /* MovieAppApp.swift */,
 				0FD3B9B628A1376D006426D7 /* ContentView.swift */,
 				0FD3B9B828A13770006426D7 /* Assets.xcassets */,
@@ -65,6 +97,33 @@
 				0FD3B9BB28A13770006426D7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0FD3B9C228A13777006426D7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0FD3B9C728A1388D006426D7 /* Home.swift */,
+				0FF81A8028A2D03F00244C62 /* CustomCarousel.swift */,
+				0FF81A8228A3D9D400244C62 /* DetailView.swift */,
+				0FF81A8428A3E51500244C62 /* offsetModifier.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0FD3B9C328A13785006426D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0FD3B9C528A137D3006426D7 /* Movie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0FD3B9C428A13791006426D7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0F9F5D1928A90DCA00196CEF /* MovieViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +142,11 @@
 			dependencies = (
 			);
 			name = MovieApp;
+			packageProductDependencies = (
+				0F5BD22F28ABBD6300275794 /* Nuke */,
+				0F5BD23128ABBD6300275794 /* NukeExtensions */,
+				0F5BD23328ABBD6300275794 /* NukeUI */,
+			);
 			productName = MovieApp;
 			productReference = 0FD3B9B128A1376D006426D7 /* MovieApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +175,9 @@
 				Base,
 			);
 			mainGroup = 0FD3B9A828A1376D006426D7;
+			packageReferences = (
+				0F5BD22E28ABBD6300275794 /* XCRemoteSwiftPackageReference "Nuke" */,
+			);
 			productRefGroup = 0FD3B9B228A1376D006426D7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,7 +205,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FD3B9B728A1376D006426D7 /* ContentView.swift in Sources */,
+				0FF81A8328A3D9D400244C62 /* DetailView.swift in Sources */,
+				0FF81A8128A2D03F00244C62 /* CustomCarousel.swift in Sources */,
+				0F9F5D1A28A90DCA00196CEF /* MovieViewModel.swift in Sources */,
 				0FD3B9B528A1376D006426D7 /* MovieAppApp.swift in Sources */,
+				0FD3B9C828A1388D006426D7 /* Home.swift in Sources */,
+				0FD3B9C628A137D3006426D7 /* Movie.swift in Sources */,
+				0FF81A8528A3E51500244C62 /* offsetModifier.swift in Sources */,
+				0F9F5D1D28A9123100196CEF /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +346,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -300,6 +375,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -337,6 +413,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0F5BD22E28ABBD6300275794 /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0F5BD22F28ABBD6300275794 /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0F5BD22E28ABBD6300275794 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+		0F5BD23128ABBD6300275794 /* NukeExtensions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0F5BD22E28ABBD6300275794 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeExtensions;
+		};
+		0F5BD23328ABBD6300275794 /* NukeUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0F5BD22E28ABBD6300275794 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0FD3B9A928A1376D006426D7 /* Project object */;
 }
